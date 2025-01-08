@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poem Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 Poem Generator</h1>
+        <div class="form-group">
+            <label for="poem-type">Choose poem type:</label>
+            <select id="poem-type">
+                <option value="haiku">Haiku</option>
+                <option value="sonnet">Sonnet</option>
+                <option value="free-verse">Free Verse</option>
+                <option value="limerick">Limerick</option>
+                <option value="surprise">surprise</option>
+            </select>
+        </div>
+        <button onclick="generatePoem()">Generate Poem</button>
+        <div id="poem-output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
